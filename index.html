@@ -6,12 +6,15 @@
     <title>大學生學習與讀書策略量表</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
+         .preload {
+            opacity: 0;
+        }
         body {
-            background-color:	;
+            transition: opacity 0.2s ease-in-out;
         }
     </style>
 </head>
-<body>
+<body class="preload">
     <div id="start_page">
         <div class="mx-auto mt-40">
             <h1 class="text-center mt-20 text-5xl font-bold font-mono">大學生學習與讀書策略量表</h1>
@@ -135,4 +138,5 @@
     </div>
 </body>
 <script src="learning motivation.js"></script>
+
 </html>
