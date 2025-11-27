@@ -204,7 +204,9 @@ function Cut(items,num){
     return result;
 }
 //列表切片//
-
+window.addEventListener("load", () => {
+    document.body.classList.remove("preload");
+});
 //預先拿掉檢查機制//
 /*const warning_text=document.querySelector("#warning_text");
     let status=true;
@@ -223,4 +225,5 @@ function Cut(items,num){
         questions_page.hidden=true;
         result_page.hidden=false;
         calculate();
+
     }*/
