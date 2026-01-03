@@ -205,24 +205,9 @@ function Cut(items,num){
 }
 //列表切片//
 
-//預先拿掉檢查機制//
-/*const warning_text=document.querySelector("#warning_text");
-    let status=true;
-    const missing=[];
-    for(var i=1;i<88;i++){
-        if(!answer[i]){
-            missing.push(i);
-            status=false;
-        };
-    };
-    if(!status){
-        const formattedMissing = Cut(missing, 10);
-        warning_text.innerText=`第${formattedMissing}題未填寫`;
-        warning.hidden=false;
-    }else{
-        questions_page.hidden=true;
-        result_page.hidden=false;
+
         calculate();
 
     }*/
+
 
