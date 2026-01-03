@@ -204,10 +204,3 @@ function Cut(items,num){
     return result;
 }
 //列表切片//
-
-
-        calculate();
-
-    }*/
-
-
